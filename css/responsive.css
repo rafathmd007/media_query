@@ -1,0 +1,37 @@
+body {
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (orientation: portrait)
+  {
+  	
+  	img{
+  		
+  		display: inline-block !important;
+  	}
+  	
+  }
+ @media only screen
+   and (device-aspect-ratio: 4/3){
+   	#text{
+   	display: inline-block !important;
+   }
+   }
+   
+   @media only screen 
+  (min-resolution: 90dpi)
+  and (-webkit-min-device-pixel-ratio: 1) {
+video{
+	
+	display: inline-block !important;
+}
+}
